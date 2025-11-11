@@ -11,7 +11,8 @@ app = FastAPI(title="Autonomous Report Generator UI")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="research_and_analyst/api/templates")
 app.templates = templates  # so templates accessible inside router
-# skv
+# skv 
+# skv 2
 # 🔹 ADD THIS FUNCTION
 def basename_filter(path: str):
     return os.path.basename(path)
