@@ -32,7 +32,7 @@ pipeline {
         // App config
         APP_RESOURCE_GROUP = 'research-report-app-rg'
         APP_NAME = 'research-report-app'
-        ACR_NAME = 'researchreportacr'
+        ACR_NAME = 'researchreportacrskv' // changed from 'researchreportacr'
         IMAGE_NAME = 'research-report-app'
         CONTAINER_ENV = 'research-report-env'
     }
